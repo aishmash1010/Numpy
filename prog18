@@ -1,0 +1,6 @@
+#prog18
+import numpy as np 
+
+a=np.eye(6,6,k=-1)
+#eye(row, coloumn, k= how below or above main diag)
+a
