@@ -1,0 +1,6 @@
+#prog 7 
+import numpy as np
+l = np.ones([8,8])
+l[0::2,0::2]=0
+l[1::2,1::2]=0
+l
