@@ -1,0 +1,7 @@
+#prog 9
+import numpy as np 
+l=[10, 20, 30] 
+l= np.array(l)
+m=np.arange(40,100,10)
+res=np.hstack((l,m))
+res
