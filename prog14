@@ -1,0 +1,7 @@
+#prog 14
+import numpy as np 
+a=np.array([[0, 10], [20, 60],[50,30]])
+b=np.array([10,20, 30, 40])
+res = np .setxor1d(a,b)
+res1 = np .setxor1d(b,a)
+res,res1
