@@ -1,0 +1,7 @@
+#prog17
+import numpy as np 
+a= np.arange(1,21)
+a= np.reshape(a,(4,5))
+a.dtype
+a=a.astype('float64')
+a.dtype
