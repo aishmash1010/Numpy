@@ -1,0 +1,5 @@
+#prog 2
+import numpy as np 
+l= np.arange(2,11)
+x= np.reshape(l,(3,3))
+x
