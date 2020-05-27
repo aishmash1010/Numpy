@@ -1,0 +1,6 @@
+#prog 10 
+import numpy as np 
+l= [ 1.00000000+0.j ,0.70710678+0.70710678j] 
+real=np.real(l)
+imaginary = np.imag(l)
+real, imaginary 
