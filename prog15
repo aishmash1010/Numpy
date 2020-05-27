@@ -1,0 +1,7 @@
+#prog15
+import numpy as np 
+a= np.arange(10,100,10)
+b=np.arange(11,99,10)
+a<b
+b<a
+a<=b
