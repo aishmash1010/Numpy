@@ -1,0 +1,8 @@
+#prog 8 
+import numpy as np 
+l=[1 ,2, 3, 4 ,5 ,6 ,7 ,8] 
+t=[[8, 4, 6],
+[1, 2 ,3]]
+l=np.array(l)
+t=np.array(t)
+l,t
