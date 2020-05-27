@@ -2,5 +2,5 @@
 import numpy as np 
 a=np.array([0, 10, 20, 40, 60])
 b=np.array([10, 30, 40])
-res= a(b)
-a
+res= np.isin(a,b)
+a[np.isin(a,b)]
