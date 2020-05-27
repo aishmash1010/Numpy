@@ -1,0 +1,5 @@
+#prog21
+import numpy as np 
+a= np.arange(9)
+a.flags.writeable= False
+#a[0]=9 is not possible as made immutable
