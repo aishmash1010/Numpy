@@ -1,0 +1,4 @@
+#prog19
+import numpy as np 
+a= np.tri(4,4,0)
+a
