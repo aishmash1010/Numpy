@@ -1,0 +1,4 @@
+#prog 11
+import numpy as np 
+l=np.arange(10)
+l.size ,l.nbytes, l.itemsize
