@@ -1,0 +1,6 @@
+#prog22
+import numpy as np 
+b=np.arange(10,19)
+b=np.reshape(b,(3,3))
+x= b*3
+x
