@@ -1,0 +1,7 @@
+#prog 16 
+import numpy as np 
+a= np.arange(1,21)
+a= np.reshape(a,(4,5))
+file= np.savetxt('a.txt',a,delimiter=',')
+fileopen= open('a.txt','r')
+print(fileopen.read())
