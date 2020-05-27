@@ -1,0 +1,6 @@
+#prog 4
+import numpy as np 
+l= np.arange(12,38)
+r=l[::-1]
+r=np.flipud(l)
+r
