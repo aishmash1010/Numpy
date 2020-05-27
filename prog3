@@ -1,0 +1,5 @@
+#prog 3
+import numpy as np 
+l= np.zeros(10)
+l[6]=11
+l
